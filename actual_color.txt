@@ -1,0 +1,16 @@
+cmp_x0016:orange
+cmp_x0001:orange
+cmp_x0002:orange
+cmp_x0003:yellow
+cmp_x0004:orange
+cmp_x0005:orange
+cmp_x0006:orange
+cmp_x0007:yellow
+cmp_x0008:orange
+cmp_x0009:orange
+cmp_x0010:blue
+cmp_x0011:yellow
+cmp_x0012:yellow
+cmp_x0013:blue
+cmp_x0014:blue
+cmp_x0015:orange
