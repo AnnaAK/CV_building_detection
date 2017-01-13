@@ -7,18 +7,19 @@ def number_floors(wins):
         medium_h += win[3]
     medium_h = medium_h/len(wins)
     floors = np.zeros(163)
-    dw = wins[0][1]
-    i = 0
+    dw = np.zeros(163)
+    dw[0] = wins[0][1]
     for win in wins:
-        if abs(win[1] - dw) < medium_h / 2:
-            floors[i] += 1
-        else:
-            dw = win[1]
-            i += 1
-            floors[i] += 1
+        for i in range(163):
+            if abs(win[1] - dw[i]) < medium_h:
+                floors[i] += 1
+                break
+            elif dw[i + 1] == 0:
+                dw[i + 1] = win[1]
+                floors[i + 1] += 1
+                break
     n_floors = np.count_nonzero(floors)
     return n_floors
-
 
 
 
