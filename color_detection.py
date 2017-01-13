@@ -1,5 +1,5 @@
+# detection of the color by hsv code of the image
 from mask import *
-
 
 bound = [
     ([160, 30, 30], [179, 230, 230], [0, 0, 0]),

@@ -1,3 +1,4 @@
+# detection of the building wall in the image
 import numpy as np
 import cv2
 
